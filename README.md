@@ -100,6 +100,35 @@ backend/alembic/              migrations additives 0001 à 0004
 backend/tests/                données exclusivement TEST LAW / TEST ARTICLE
 ```
 
+### Corpus PDF local
+
+Les PDF sources sont classés sous `data/legal/` :
+
+```text
+data/legal/
+  codes/                      Tous les codes juridiques généraux
+  constitution/               Constitution
+  tax/                        Codes fiscaux
+  special_laws/               Lois spéciales et lois de finances
+  decrees/ decree_laws/       Décrets et décrets-lois
+  orders/ jort/               Arrêtés et journaux officiels
+  jurisprudence/              Décisions de jurisprudence
+```
+
+Les PDF sont exclus de Git par `.gitignore`, tandis que les `.gitkeep` conservent l'arborescence. Pour contrôler ce qui sera importé sans appeler l'API :
+
+```powershell
+.\.venv\Scripts\python.exe scripts/import_corpus.py --dry-run
+```
+
+Pour importer tout le corpus structuré lorsque le backend est démarré :
+
+```powershell
+.\.venv\Scripts\python.exe scripts/import_corpus.py
+```
+
+Le script parcourt les sous-dossiers récursivement et attribue le bon `document_type`. Le déplacement des fichiers sources locaux n'affecte pas les documents déjà importés : leurs copies privées restent dans le volume Docker `document_data`.
+
 ## API principale
 
 | Route | Fonction |

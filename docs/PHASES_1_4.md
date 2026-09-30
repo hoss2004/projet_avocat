@@ -88,7 +88,7 @@ data/cabinet/             # emplacements réservés ; aucune API cabinet dans ce
 data/cases/               # réservé ; aucun dossier client ingéré
 ```
 
-Le classement `data/legal/` n'est pas un dossier surveillé : l'import reste manuel. Les originaux déposés par API sont stockés dans un volume privé sous `<tenant UUID>/<document UUID>.pdf`. Les 18 PDF déjà présents à la racine ne sont ni déplacés ni modifiés.
+Le classement `data/legal/` n'est pas un dossier surveillé : l'import reste manuel. Les 18 PDF locaux sont rangés dans cette arborescence selon leur nature. `scripts/import_corpus.py` les découvre récursivement et déduit leur `document_type` du premier dossier (`codes`, `tax`, `constitution`, etc.). Les originaux déposés par API sont stockés séparément dans un volume privé sous `<tenant UUID>/<document UUID>.pdf`.
 
 Flux : validation de taille et signature → SHA-256 → détection de doublon → conservation du fichier → ingestion explicite → extraction par page → langue → titres/articles → transaction SQL. Les services d'ingestion sont séparés des routes pour permettre une file de travaux ultérieure.
 
@@ -146,7 +146,7 @@ Exemple avec le script client (utilise la clé dans `.env`) :
 
 ```powershell
 $env:PYTHONIOENCODING = 'utf-8'
-.\.venv\Scripts\python.exe scripts/import_pdf.py Code_de_procedure_civile_et_commerciale.pdf --title-fr "Code de procédure civile et commerciale" --article 403
+.\.venv\Scripts\python.exe scripts/import_pdf.py data/legal/codes/Code_de_procedure_civile_et_commerciale.pdf --title-fr "Code de procédure civile et commerciale" --article 403
 ```
 
 Le script affiche le statut, les avertissements et les articles. Sans `--article`, la première page de résultats est affichée (50 articles). L'API utilise `offset` et `limit` (maximum 200) pour la pagination. Pour une nouvelle version, ajouter `--previous-version-id UUID`.
@@ -154,7 +154,7 @@ Le script affiche le statut, les avertissements et les articles. Sans `--article
 Inspection locale sans base ni serveur :
 
 ```powershell
-.\.venv\Scripts\python.exe -m app.cli Code_de_procedure_civile_et_commerciale.pdf --article 403
+.\.venv\Scripts\python.exe -m app.cli ../data/legal/codes/Code_de_procedure_civile_et_commerciale.pdf --article 403
 ```
 
 Cette commande ne modifie pas le PDF. Elle ne certifie ni l'authenticité de la source ni sa validité actuelle.
