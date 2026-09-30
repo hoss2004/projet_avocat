@@ -1,0 +1,210 @@
+[
+  {
+    "filename": "codeenfant.pdf",
+    "sha256": "e48588773dafbb760f7c2cab5aa9a09552fc6e442f1e42d018d74bc11805fc7b",
+    "pages": 25,
+    "candidate_articles": 115,
+    "extraction_warning_count": 25,
+    "parser_warnings": [
+      "Découpage automatique à vérifier dans le PDF; les notes et en-têtes peuvent rester dans les extraits"
+    ],
+    "article_403_pdf_pages": []
+  },
+  {
+    "filename": "Code_des_droits_denregistrement_et_de_timbre.pdf",
+    "sha256": "aa1fd7de59592783715308eab751944631cebfd67b285c0d71a4a906846a0067",
+    "pages": 145,
+    "candidate_articles": 199,
+    "extraction_warning_count": 1,
+    "parser_warnings": [
+      "Numéros répétés (lois introductives, annexes ou sommaire possibles): 1, 2, 3, 4, 6, 7, 8, 20, 10, 11, 34, 15, 39, 55, 50, 9, 14, 19, 21, 23, 37, 30, 33, 38, 45, 46, 52, 58, 62, 69, 92, 119, 128, 5, 28, 26",
+      "Découpage automatique à vérifier dans le PDF; les notes et en-têtes peuvent rester dans les extraits"
+    ],
+    "article_403_pdf_pages": []
+  },
+  {
+    "filename": "Code_des_droits_et_procedures_fiscaux.pdf",
+    "sha256": "7beb272fe7c56a2f2f2cab3354a2b860818a7a32dcc71f22690d9f0e1b8ce5a8",
+    "pages": 241,
+    "candidate_articles": 485,
+    "extraction_warning_count": 21,
+    "parser_warnings": [
+      "Numéros répétés (lois introductives, annexes ou sommaire possibles): 1, 2, 3, 4, 5, 6, 7, 21, 45, 113, 8, 9, 10, 11, 12, 13, 14, 15, 16, 48, 17, 35, 18, 19, 20, 22, 23, 24, 25, 26, 27, 47, 28, 29, 30, 31, 32, 33, 34, 36, 38, 39, 40, 41, 42, 43, 44, 46, 54, 49, 50, 51, 52, 53, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 103, 104, 105, 109, 110, 112, 114, 76",
+      "Découpage automatique à vérifier dans le PDF; les notes et en-têtes peuvent rester dans les extraits"
+    ],
+    "article_403_pdf_pages": []
+  },
+  {
+    "filename": "Code_des_droits_réels.pdf",
+    "sha256": "c7bbe39d15377bb1a0c4b32eab09868db8b4fa25dc1f8fee6f1547387206881e",
+    "pages": 159,
+    "candidate_articles": 460,
+    "extraction_warning_count": 0,
+    "parser_warnings": [
+      "Ordre visuel RTL détecté dans les en-têtes; vérifier la lecture des phrases dans le PDF original",
+      "Numéros répétés (lois introductives, annexes ou sommaire possibles): 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36",
+      "Découpage automatique à vérifier dans le PDF; les notes et en-têtes peuvent rester dans les extraits"
+    ],
+    "article_403_pdf_pages": []
+  },
+  {
+    "filename": "code_des_obligations_et_des_contrats.pdf",
+    "sha256": "d31737402165d539b74412696ca5f9590491fdbfa3226b39ce0e835758215e85",
+    "pages": 336,
+    "candidate_articles": 1414,
+    "extraction_warning_count": 0,
+    "parser_warnings": [
+      "Ordre visuel RTL détecté dans les en-têtes; vérifier la lecture des phrases dans le PDF original",
+      "Numéros répétés (lois introductives, annexes ou sommaire possibles): 1, 2, 3, 6, 10, 11, 12, 13, 14, 16, 17, 18, 20, 21, 22, 23, 4, 7, 8, 9, 5",
+      "Découpage automatique à vérifier dans le PDF; les notes et en-têtes peuvent rester dans les extraits"
+    ],
+    "article_403_pdf_pages": [
+      97
+    ]
+  },
+  {
+    "filename": "Code_des_societes_commerciales.pdf",
+    "sha256": "779f0978f7d94326751dcd19e6d50f5f8d85e4daeaa4100f03fff0c67724743e",
+    "error": "OCRRequired",
+    "detail": "Page 1: encodage de police illisible; OCR ou autre PDF nécessaire"
+  },
+  {
+    "filename": "Code_de_commerce.pdf",
+    "sha256": "93580047cf4edac1debb33bfdba2c866329849c470bcbdc9531f4a45741a4155",
+    "error": "OCRRequired",
+    "detail": "Page 1: encodage de police illisible; OCR ou autre PDF nécessaire"
+  },
+  {
+    "filename": "Code_de_droit_international_prive.pdf",
+    "sha256": "7a88d46165b43263e55e665b5551fc089aee3f34f30ced1137c90a505f4b1929",
+    "pages": 5,
+    "candidate_articles": 0,
+    "extraction_warning_count": 0,
+    "parser_warnings": [
+      "Aucun en-tête d'article reconnu; vérifier la couche texte et la mise en page",
+      "Découpage automatique à vérifier dans le PDF; les notes et en-têtes peuvent rester dans les extraits"
+    ],
+    "article_403_pdf_pages": []
+  },
+  {
+    "filename": "Code_de_laTVA.pdf",
+    "sha256": "7ed9e9142812bee75730c5120a37ab4a77a957fb79c5131795a6041024c17382",
+    "pages": 321,
+    "candidate_articles": 316,
+    "extraction_warning_count": 9,
+    "parser_warnings": [
+      "Numéros répétés (lois introductives, annexes ou sommaire possibles): 13, 15, 18, 19, 2, 3, 4, 5, 6, 1, 7, 8, 9, 10, 33, 11, 14, 12, 16, 17, 31, 50, 70, 27, 38, 44, 64, 51, 47, 65, 37, 35, 45, 23, 69, 20, 21, 22, 24, 25, 28, 29, 30, 32, 34, 40, 41, 42, 43, 46, 63, 76",
+      "Découpage automatique à vérifier dans le PDF; les notes et en-têtes peuvent rester dans les extraits"
+    ],
+    "article_403_pdf_pages": []
+  },
+  {
+    "filename": "Code_de_la_fiscalite_locale.pdf",
+    "sha256": "a8a326289d55cccf69befc6ca38f20d9ff14075a4136e413e5ffaf04dbf30ac8",
+    "pages": 126,
+    "candidate_articles": 205,
+    "extraction_warning_count": 7,
+    "parser_warnings": [
+      "Numéros répétés (lois introductives, annexes ou sommaire possibles): 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 43, 80, 57, 58, 59, 69, 72, 73, 74, 76, 82",
+      "Découpage automatique à vérifier dans le PDF; les notes et en-têtes peuvent rester dans les extraits"
+    ],
+    "article_403_pdf_pages": []
+  },
+  {
+    "filename": "Code_de_la_nationalite_tunisienne.pdf",
+    "sha256": "ce37ed452c7c25b1f69c31c67671755576a2182dbf4a49f00aa4b584b9dc64d5",
+    "pages": 15,
+    "candidate_articles": 69,
+    "extraction_warning_count": 0,
+    "parser_warnings": [
+      "Numéros répétés (lois introductives, annexes ou sommaire possibles): 2, 3, 4, 41",
+      "Découpage automatique à vérifier dans le PDF; les notes et en-têtes peuvent rester dans les extraits"
+    ],
+    "article_403_pdf_pages": []
+  },
+  {
+    "filename": "Code_de_procedure_civile_et_commerciale.pdf",
+    "sha256": "be67696c1b9f8a5af205eb67af88cef65075bb49e4594290d4b8e950f96dfce2",
+    "pages": 98,
+    "candidate_articles": 459,
+    "extraction_warning_count": 0,
+    "parser_warnings": [
+      "Ordre visuel RTL détecté dans les en-têtes; vérifier la lecture des phrases dans le PDF original",
+      "Numéros répétés (lois introductives, annexes ou sommaire possibles): 1, 2, 3, 4, 5, 6, 42",
+      "Découpage automatique à vérifier dans le PDF; les notes et en-têtes peuvent rester dans les extraits"
+    ],
+    "article_403_pdf_pages": [
+      84
+    ]
+  },
+  {
+    "filename": "code_de_procedure_penale.pdf",
+    "sha256": "779e0f7b8b99aa0402596618acd2db6e55ca6ce284772f8e0beca85539a67735",
+    "pages": 105,
+    "candidate_articles": 326,
+    "extraction_warning_count": 0,
+    "parser_warnings": [
+      "Ordre visuel RTL détecté dans les en-têtes; vérifier la lecture des phrases dans le PDF original",
+      "Numéros répétés (lois introductives, annexes ou sommaire possibles): 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15",
+      "Découpage automatique à vérifier dans le PDF; les notes et en-têtes peuvent rester dans les extraits"
+    ],
+    "article_403_pdf_pages": []
+  },
+  {
+    "filename": "code_de_travail.pdf",
+    "sha256": "10b2728ba6e51a901958671d731c1ab2d755cd21bdc7a26efb08274026370e9c",
+    "pages": 155,
+    "candidate_articles": 266,
+    "extraction_warning_count": 0,
+    "parser_warnings": [
+      "Ordre visuel RTL détecté dans les en-têtes; vérifier la lecture des phrases dans le PDF original",
+      "Numéros répétés (lois introductives, annexes ou sommaire possibles): 1, 2, 3, 4",
+      "Découpage automatique à vérifier dans le PDF; les notes et en-têtes peuvent rester dans les extraits"
+    ],
+    "article_403_pdf_pages": [
+      141
+    ]
+  },
+  {
+    "filename": "Code_du_statut_personnel.pdf",
+    "sha256": "79e239c845e780a64c56b8ad3b72b1bd3386803a2b5965a2281f4006bf9995fc",
+    "pages": 44,
+    "candidate_articles": 212,
+    "extraction_warning_count": 0,
+    "parser_warnings": [
+      "Ordre visuel RTL détecté dans les en-têtes; vérifier la lecture des phrases dans le PDF original",
+      "Découpage automatique à vérifier dans le PDF; les notes et en-têtes peuvent rester dans les extraits"
+    ],
+    "article_403_pdf_pages": []
+  },
+  {
+    "filename": "code_penal.pdf",
+    "sha256": "5ca52f97808bd51ffe5fecf42bd39e0d33036e0488812f97b23129ba7a74379e",
+    "pages": 66,
+    "candidate_articles": 188,
+    "extraction_warning_count": 0,
+    "parser_warnings": [
+      "Ordre visuel RTL détecté dans les en-têtes; vérifier la lecture des phrases dans le PDF original",
+      "Découpage automatique à vérifier dans le PDF; les notes et en-têtes peuvent rester dans les extraits"
+    ],
+    "article_403_pdf_pages": []
+  },
+  {
+    "filename": "constitution.pdf",
+    "sha256": "38879fe9babc7b3601ace319fc7555441e02de5136046abade74a4008d8115c9",
+    "error": "OCRRequired",
+    "detail": "Page 1: encodage de police illisible; OCR ou autre PDF nécessaire"
+  },
+  {
+    "filename": "Loi_de_finances 2026.pdf",
+    "sha256": "84f96735cc24a3fd90920e83c7fe4de2d0b22c128ada5b48df8a16135f053fc4",
+    "pages": 101,
+    "candidate_articles": 115,
+    "extraction_warning_count": 27,
+    "parser_warnings": [
+      "Numéros répétés (lois introductives, annexes ou sommaire possibles): 3, 5, 26, 33, 44, 50",
+      "Découpage automatique à vérifier dans le PDF; les notes et en-têtes peuvent rester dans les extraits"
+    ],
+    "article_403_pdf_pages": []
+  }
+]

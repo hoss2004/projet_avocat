@@ -1,0 +1,1023 @@
+{
+  "documents_count": 18,
+  "articles_count": 4829,
+  "embeddings_count": 4829,
+  "documents": [
+    {
+      "document_id": "0d35f380-f7bb-4b8d-841c-065d10a91f92",
+      "title": "Code de commerce",
+      "language": "und",
+      "status": "ocr_required",
+      "corpus": "tunisian_law",
+      "articles": 0,
+      "indexed": 0,
+      "embeddings": 0,
+      "domains": {},
+      "subdomains": {},
+      "legal_texts": [],
+      "unidentified_articles": 0
+    },
+    {
+      "document_id": "44450cfb-744f-4e0f-97c4-b822acaf3d57",
+      "title": "code de travail",
+      "language": "ar",
+      "status": "needs_review",
+      "corpus": "tunisian_law",
+      "articles": 266,
+      "indexed": 266,
+      "embeddings": 266,
+      "domains": {
+        "labor_law": 266
+      },
+      "subdomains": {
+        "unclassified": 266
+      },
+      "legal_texts": [
+        {
+          "title": "مجلة الشغل",
+          "kind": "code",
+          "confidence": "heading_detected",
+          "review_required": true,
+          "id": "text:5832",
+          "start_offset": 5832
+        },
+        {
+          "title": ")1( يتعلق بإصدار مجلة الشغل1966  أفريل30  مؤرخ في1966  لسنة27 قانون عدد",
+          "kind": "instrument",
+          "confidence": "heading_detected",
+          "review_required": true,
+          "id": "text:56",
+          "start_offset": 56
+        }
+      ],
+      "unidentified_articles": 0
+    },
+    {
+      "document_id": "5eca544b-da88-4862-8c07-99607e909f22",
+      "title": "Code de droit international prive",
+      "language": "ar",
+      "status": "no_articles",
+      "corpus": "tunisian_law",
+      "articles": 0,
+      "indexed": 0,
+      "embeddings": 0,
+      "domains": {},
+      "subdomains": {},
+      "legal_texts": [],
+      "unidentified_articles": 0
+    },
+    {
+      "document_id": "bc069d92-911b-41c3-b5d0-0ed049c730c8",
+      "title": "Code de procedure civile et commerciale",
+      "language": "ar",
+      "status": "needs_review",
+      "corpus": "tunisian_law",
+      "articles": 459,
+      "indexed": 459,
+      "embeddings": 459,
+      "domains": {
+        "civil_procedure": 459
+      },
+      "subdomains": {
+        "unclassified": 459
+      },
+      "legal_texts": [
+        {
+          "title": "1مج ّلة المرافعات المدنية والتجارية",
+          "kind": "code",
+          "confidence": "heading_detected",
+          "review_required": true,
+          "id": "text:2329",
+          "start_offset": 2329
+        },
+        {
+          "title": ") يتعلق بإدراج مجلة المرافعات المدنية والتجارية1959  أكتوبر5( 1379  ربيع الثاني2  مؤرخ في1959  لسنة130 قانون عدد",
+          "kind": "instrument",
+          "confidence": "heading_detected",
+          "review_required": true,
+          "id": "text:77",
+          "start_offset": 77
+        }
+      ],
+      "unidentified_articles": 0
+    },
+    {
+      "document_id": "82be1f19-1daa-44f3-a412-0cee10f46e0e",
+      "title": "Code de la fiscalite locale",
+      "language": "fr",
+      "status": "needs_review",
+      "corpus": "tunisian_law",
+      "articles": 205,
+      "indexed": 205,
+      "embeddings": 205,
+      "domains": {
+        "unknown": 205
+      },
+      "subdomains": {
+        "unclassified": 205
+      },
+      "legal_texts": [
+        {
+          "id": "unidentified:10269",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 10269
+        },
+        {
+          "id": "unidentified:190389",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 190389
+        },
+        {
+          "id": "unidentified:159784",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 159784
+        },
+        {
+          "id": "unidentified:208606",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 208606
+        },
+        {
+          "id": "unidentified:95593",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 95593
+        },
+        {
+          "title": "Loi n° 97-11 du 3 février 1997 portant promulgation du code de la",
+          "kind": "instrument",
+          "confidence": "heading_detected",
+          "review_required": true,
+          "id": "text:1139",
+          "start_offset": 1139
+        },
+        {
+          "id": "unidentified:101412",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 101412
+        },
+        {
+          "id": "unidentified:130048",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 130048
+        },
+        {
+          "id": "unidentified:104256",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 104256
+        },
+        {
+          "id": "unidentified:112623",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 112623
+        },
+        {
+          "id": "unidentified:92464",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 92464
+        },
+        {
+          "title": "loi n° 2006-59 du 14 août 2006, relative à l’infraction",
+          "kind": "instrument",
+          "confidence": "heading_detected",
+          "review_required": true,
+          "id": "text:138571",
+          "start_offset": 138571
+        },
+        {
+          "id": "unidentified:179229",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 179229
+        },
+        {
+          "id": "unidentified:170738",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 170738
+        },
+        {
+          "id": "unidentified:127767",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 127767
+        },
+        {
+          "id": "unidentified:98601",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 98601
+        },
+        {
+          "id": "unidentified:106322",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 106322
+        },
+        {
+          "id": "unidentified:107749",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 107749
+        },
+        {
+          "id": "unidentified:201314",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 201314
+        },
+        {
+          "id": "unidentified:176757",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 176757
+        }
+      ],
+      "unidentified_articles": 181
+    },
+    {
+      "document_id": "15c6f755-a8a2-4b97-aa26-baa4e7aab774",
+      "title": "Code de la nationalite tunisienne",
+      "language": "ar",
+      "status": "needs_review",
+      "corpus": "tunisian_law",
+      "articles": 69,
+      "indexed": 69,
+      "embeddings": 69,
+      "domains": {
+        "unknown": 69
+      },
+      "subdomains": {
+        "unclassified": 69
+      },
+      "legal_texts": [
+        {
+          "title": "ﻤﺭﺴﻭﻡ ﻋﺩﺩ6",
+          "kind": "instrument",
+          "confidence": "heading_detected",
+          "review_required": true,
+          "id": "text:1440",
+          "start_offset": 1440
+        },
+        {
+          "id": "main",
+          "kind": "main",
+          "title": null,
+          "confidence": "document_metadata",
+          "start_offset": 0
+        }
+      ],
+      "unidentified_articles": 0
+    },
+    {
+      "document_id": "82df9c7b-d0e3-4ac0-b9e2-a7fde42ab151",
+      "title": "Code de laTVA",
+      "language": "ar",
+      "status": "needs_review",
+      "corpus": "tunisian_law",
+      "articles": 316,
+      "indexed": 316,
+      "embeddings": 316,
+      "domains": {
+        "unknown": 298,
+        "tax_law": 18
+      },
+      "subdomains": {
+        "unclassified": 316
+      },
+      "legal_texts": [
+        {
+          "id": "unidentified:142174",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 142174
+        },
+        {
+          "id": "unidentified:425512",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 425512
+        },
+        {
+          "title": "مـجلـة األداء على القيـمة المضافـة",
+          "kind": "code",
+          "confidence": "heading_detected",
+          "review_required": true,
+          "id": "text:28089",
+          "start_offset": 28089
+        },
+        {
+          "id": "unidentified:278980",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 278980
+        },
+        {
+          "id": "unidentified:457565",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 457565
+        },
+        {
+          "id": "unidentified:324623",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 324623
+        },
+        {
+          "id": "unidentified:313167",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 313167
+        },
+        {
+          "id": "main",
+          "kind": "main",
+          "title": null,
+          "confidence": "document_metadata",
+          "start_offset": 0
+        },
+        {
+          "id": "unidentified:487336",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 487336
+        },
+        {
+          "title": "أمر عدد1109",
+          "kind": "instrument",
+          "confidence": "heading_detected",
+          "review_required": true,
+          "id": "text:25790",
+          "start_offset": 25790
+        },
+        {
+          "id": "unidentified:301155",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 301155
+        },
+        {
+          "id": "unidentified:269351",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 269351
+        },
+        {
+          "id": "unidentified:306305",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 306305
+        }
+      ],
+      "unidentified_articles": 258
+    },
+    {
+      "document_id": "5193f695-9531-4697-8e9c-074ac6accd32",
+      "title": "code de procedure penale",
+      "language": "ar",
+      "status": "needs_review",
+      "corpus": "tunisian_law",
+      "articles": 326,
+      "indexed": 326,
+      "embeddings": 326,
+      "domains": {
+        "criminal_procedure": 310,
+        "unknown": 16
+      },
+      "subdomains": {
+        "unclassified": 326
+      },
+      "legal_texts": [
+        {
+          "id": "main",
+          "kind": "main",
+          "title": null,
+          "confidence": "document_metadata",
+          "start_offset": 0
+        },
+        {
+          "title": ".1 يتعلق بالتعويض للموقوفين والمحكوم عليهم الذين ثبتت براءتهم2002  أكتوبر29  مؤرخ في2002  لسنة94 قانون عدد",
+          "kind": "instrument",
+          "confidence": "heading_detected",
+          "review_required": true,
+          "id": "text:135027",
+          "start_offset": 135027
+        },
+        {
+          "id": "unidentified:139105",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 139105
+        }
+      ],
+      "unidentified_articles": 1
+    },
+    {
+      "document_id": "103ef640-cf70-43c6-9e23-3a372ff6d0f1",
+      "title": "Code des droits denregistrement et de timbre",
+      "language": "ar",
+      "status": "needs_review",
+      "corpus": "tunisian_law",
+      "articles": 199,
+      "indexed": 199,
+      "embeddings": 199,
+      "domains": {
+        "unknown": 199
+      },
+      "subdomains": {
+        "unclassified": 199
+      },
+      "legal_texts": [
+        {
+          "id": "unidentified:27575",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 27575
+        },
+        {
+          "id": "unidentified:174665",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 174665
+        },
+        {
+          "title": "مجلة معاليم التسجيل والطابع الجبائي(",
+          "kind": "code",
+          "confidence": "heading_detected",
+          "review_required": true,
+          "id": "text:2209",
+          "start_offset": 2209
+        },
+        {
+          "id": "unidentified:186649",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 186649
+        },
+        {
+          "id": "unidentified:179047",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 179047
+        },
+        {
+          "id": "unidentified:193111",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 193111
+        },
+        {
+          "id": "unidentified:188799",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 188799
+        },
+        {
+          "id": "unidentified:205503",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 205503
+        },
+        {
+          "id": "unidentified:14529",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 14529
+        }
+      ],
+      "unidentified_articles": 179
+    },
+    {
+      "document_id": "ba0b344e-ac84-4545-be1e-4abb7ef18e43",
+      "title": "Code des droits et procedures fiscaux",
+      "language": "ar",
+      "status": "needs_review",
+      "corpus": "tunisian_law",
+      "articles": 485,
+      "indexed": 485,
+      "embeddings": 485,
+      "domains": {
+        "unknown": 485
+      },
+      "subdomains": {
+        "unclassified": 485
+      },
+      "legal_texts": [
+        {
+          "id": "unidentified:14612",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 14612
+        },
+        {
+          "title": "قانون عدد40",
+          "kind": "instrument",
+          "confidence": "heading_detected",
+          "review_required": true,
+          "id": "text:327507",
+          "start_offset": 327507
+        },
+        {
+          "id": "unidentified:203067",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 203067
+        },
+        {
+          "id": "unidentified:211042",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 211042
+        },
+        {
+          "id": "unidentified:174180",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 174180
+        },
+        {
+          "id": "unidentified:256603",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 256603
+        },
+        {
+          "id": "unidentified:246721",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 246721
+        },
+        {
+          "id": "unidentified:206813",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 206813
+        },
+        {
+          "id": "unidentified:241956",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 241956
+        },
+        {
+          "id": "unidentified:192041",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 192041
+        },
+        {
+          "id": "unidentified:326799",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 326799
+        },
+        {
+          "id": "unidentified:237149",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 237149
+        },
+        {
+          "id": "unidentified:306306",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 306306
+        },
+        {
+          "id": "unidentified:177832",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 177832
+        },
+        {
+          "title": "قانون عدد82",
+          "kind": "instrument",
+          "confidence": "heading_detected",
+          "review_required": true,
+          "id": "text:1252",
+          "start_offset": 1252
+        },
+        {
+          "id": "unidentified:181007",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 181007
+        },
+        {
+          "id": "unidentified:325340",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 325340
+        },
+        {
+          "id": "unidentified:322513",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 322513
+        }
+      ],
+      "unidentified_articles": 374
+    },
+    {
+      "document_id": "b8c13d59-afa9-4e76-ae30-5860bb9d32e2",
+      "title": "Code des droits réels",
+      "language": "ar",
+      "status": "needs_review",
+      "corpus": "tunisian_law",
+      "articles": 460,
+      "indexed": 460,
+      "embeddings": 460,
+      "domains": {
+        "real_estate": 379,
+        "unknown": 73,
+        "contract_law": 8
+      },
+      "subdomains": {
+        "unclassified": 452,
+        "lease": 8
+      },
+      "legal_texts": [
+        {
+          "title": "مجلة الحقوق العينية",
+          "kind": "code",
+          "confidence": "heading_detected",
+          "review_required": true,
+          "id": "text:34",
+          "start_offset": 34
+        },
+        {
+          "title": ".)1(  يتعلق بشهادة الحوز1974  جوان10  مؤرخ في1974  لسنة53 قانون عدد",
+          "kind": "instrument",
+          "confidence": "heading_detected",
+          "review_required": true,
+          "id": "text:147779",
+          "start_offset": 147779
+        },
+        {
+          "title": ".)1( يتعلق بتحيين الرسوم العقارية2001  أفريل10  مؤرخ في2001  لسنة34 قانون عدد",
+          "kind": "instrument",
+          "confidence": "heading_detected",
+          "review_required": true,
+          "id": "text:123991",
+          "start_offset": 123991
+        },
+        {
+          "title": "مجلة الحقوق العينية",
+          "kind": "code",
+          "confidence": "book_after_promulgation",
+          "review_required": true,
+          "id": "code:116027",
+          "start_offset": 116027
+        },
+        {
+          "title": ".)1(  يتعلق بالعقارات الدولية الفالحية1995  فيفري13  مؤرخ في1995  لسنة21 قانون عدد",
+          "kind": "instrument",
+          "confidence": "heading_detected",
+          "review_required": true,
+          "id": "text:153510",
+          "start_offset": 153510
+        },
+        {
+          "id": "unidentified:174591",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 174591
+        },
+        {
+          "id": "unidentified:145743",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 145743
+        }
+      ],
+      "unidentified_articles": 9
+    },
+    {
+      "document_id": "144cfbfe-37e9-47a7-928b-96df08e07a57",
+      "title": "codeenfant",
+      "language": "ar",
+      "status": "needs_review",
+      "corpus": "tunisian_law",
+      "articles": 115,
+      "indexed": 115,
+      "embeddings": 115,
+      "domains": {
+        "unknown": 115
+      },
+      "subdomains": {
+        "unclassified": 115
+      },
+      "legal_texts": [
+        {
+          "id": "main",
+          "kind": "main",
+          "title": null,
+          "confidence": "document_metadata",
+          "start_offset": 0
+        }
+      ],
+      "unidentified_articles": 0
+    },
+    {
+      "document_id": "d8ae3c29-e020-4139-a821-aaf4db91ac31",
+      "title": "code des obligations et des contrats",
+      "language": "ar",
+      "status": "needs_review",
+      "corpus": "tunisian_law",
+      "articles": 1414,
+      "indexed": 1414,
+      "embeddings": 1414,
+      "domains": {
+        "contract_law": 1368,
+        "unknown": 46
+      },
+      "subdomains": {
+        "unclassified": 909,
+        "lease": 100,
+        "mandate": 91,
+        "guarantee": 54,
+        "exchange": 8,
+        "service_contract": 59,
+        "sale": 131,
+        "emphyteusis": 38,
+        "partnership": 24
+      },
+      "legal_texts": [
+        {
+          "title": "مجلــة اإللتـزامات والعقــود",
+          "kind": "code",
+          "confidence": "book_after_promulgation",
+          "review_required": true,
+          "id": "code:1495",
+          "start_offset": 1495
+        },
+        {
+          "title": ".)1(  يتعلق بتنظيم الكراء الفالحي1987  جوان12  مؤرخ في1987  لسنة30 قانون عدد",
+          "kind": "instrument",
+          "confidence": "heading_detected",
+          "review_required": true,
+          "id": "text:359501",
+          "start_offset": 359501
+        },
+        {
+          "title": "يتعلق بتصفية حقوق اإلنزال والكردار الموظفة على العقارات ذات الصبغة1974  مارس18  مؤرخ في1974  لسنة24 قانون عدد",
+          "kind": "instrument",
+          "confidence": "heading_detected",
+          "review_required": true,
+          "id": "text:353139",
+          "start_offset": 353139
+        },
+        {
+          "id": "unidentified:344263",
+          "kind": "unidentified",
+          "title": null,
+          "confidence": "numbering_restart",
+          "review_required": true,
+          "start_offset": 344263
+        },
+        {
+          "title": "1906  ديسمبــــر15 أمــــــــــر مؤرخ في",
+          "kind": "instrument",
+          "confidence": "heading_detected",
+          "review_required": true,
+          "id": "text:356",
+          "start_offset": 356
+        }
+      ],
+      "unidentified_articles": 16
+    },
+    {
+      "document_id": "ca2116b3-287d-487d-b183-14a06a1bbc19",
+      "title": "Code des societes commerciales",
+      "language": "und",
+      "status": "ocr_required",
+      "corpus": "tunisian_law",
+      "articles": 0,
+      "indexed": 0,
+      "embeddings": 0,
+      "domains": {},
+      "subdomains": {},
+      "legal_texts": [],
+      "unidentified_articles": 0
+    },
+    {
+      "document_id": "69dc3ba2-b933-40dc-9d33-3b7fefc4b9db",
+      "title": "Code du statut personnel",
+      "language": "ar",
+      "status": "needs_review",
+      "corpus": "tunisian_law",
+      "articles": 212,
+      "indexed": 212,
+      "embeddings": 212,
+      "domains": {
+        "unknown": 212
+      },
+      "subdomains": {
+        "unclassified": 212
+      },
+      "legal_texts": [
+        {
+          "title": "مجلة األحوال الشخصية",
+          "kind": "code",
+          "confidence": "heading_detected",
+          "review_required": true,
+          "id": "text:32",
+          "start_offset": 32
+        }
+      ],
+      "unidentified_articles": 0
+    },
+    {
+      "document_id": "cf2ac6d4-ad03-4755-9e70-aeeefb7cf5fe",
+      "title": "constitution",
+      "language": "und",
+      "status": "ocr_required",
+      "corpus": "tunisian_law",
+      "articles": 0,
+      "indexed": 0,
+      "embeddings": 0,
+      "domains": {},
+      "subdomains": {},
+      "legal_texts": [],
+      "unidentified_articles": 0
+    },
+    {
+      "document_id": "fe016e02-23b4-4707-9903-b69caf3996f2",
+      "title": "code penal",
+      "language": "ar",
+      "status": "needs_review",
+      "corpus": "tunisian_law",
+      "articles": 188,
+      "indexed": 188,
+      "embeddings": 188,
+      "domains": {
+        "criminal_law": 188
+      },
+      "subdomains": {
+        "unclassified": 188
+      },
+      "legal_texts": [
+        {
+          "title": "المجلة الجزائية",
+          "kind": "code",
+          "confidence": "heading_detected",
+          "review_required": true,
+          "id": "text:27",
+          "start_offset": 27
+        }
+      ],
+      "unidentified_articles": 0
+    },
+    {
+      "document_id": "78ad921b-9155-41e7-a75d-7023c39110cf",
+      "title": "Loi de finances 2026",
+      "language": "ar",
+      "status": "needs_review",
+      "corpus": "tunisian_law",
+      "articles": 115,
+      "indexed": 115,
+      "embeddings": 115,
+      "domains": {
+        "tax_law": 115
+      },
+      "subdomains": {
+        "unclassified": 115
+      },
+      "legal_texts": [
+        {
+          "id": "main",
+          "kind": "main",
+          "title": null,
+          "confidence": "document_metadata",
+          "start_offset": 0
+        }
+      ],
+      "unidentified_articles": 0
+    }
+  ],
+  "cabinet_memory": {
+    "enabled": false,
+    "searchable": false
+  },
+  "case_documents": "isolated_by_tenant_and_case"
+}

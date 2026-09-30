@@ -1,0 +1,12 @@
+{
+  "login": true,
+  "protected_proxy": true,
+  "http_only_session": true,
+  "library_documents": 18,
+  "qwen_response_mode": "generated",
+  "verified_claims": 1,
+  "source_page": 84,
+  "mobile_no_overflow": true,
+  "javascript_errors": [],
+  "generation_test_scope": "Document identification (article number and code title), not legal interpretation"
+}

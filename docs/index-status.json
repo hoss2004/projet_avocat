@@ -1,0 +1,14 @@
+{
+  "llm_provider": "ollama",
+  "llm_model": "qwen2.5:3b",
+  "embedding_provider": "ollama",
+  "embedding_model": "bge-m3",
+  "indexed_chunks": 4829,
+  "embedded_chunks": 4829,
+  "local_model_server_reachable": true,
+  "available_models": [
+    "bge-m3:latest",
+    "qwen2.5:3b"
+  ],
+  "remote_transmission_allowed": false
+}

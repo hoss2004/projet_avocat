@@ -1,0 +1,98 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg17
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: legal
+      POSTGRES_USER: legal
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Configure .env}
+      APP_DB_PASSWORD: ${APP_DB_PASSWORD:?Configure .env}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./postgres/init.sql:/docker-entrypoint-initdb.d/001-init.sql:ro
+    healthcheck:
+      test: [CMD-SHELL, pg_isready -U legal -d legal]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+  migrate:
+    build: ./backend
+    environment:
+      DATABASE_URL: ${MIGRATION_DATABASE_URL:?Configure .env}
+      API_KEY: ${API_KEY:?Configure .env}
+      TENANT_ID: ${TENANT_ID:?Configure .env}
+    depends_on:
+      postgres:
+        condition: service_healthy
+    command: [alembic, upgrade, head]
+  backend:
+    build: ./backend
+    restart: unless-stopped
+    environment: &backend_environment
+      DATABASE_URL: ${DATABASE_URL:?Configure .env}
+      API_KEY: ${API_KEY:?Configure .env}
+      TENANT_ID: ${TENANT_ID:?Configure .env}
+      STORAGE_PATH: /data/storage
+      MAX_UPLOAD_SIZE: ${MAX_UPLOAD_SIZE:-26214400}
+      MAX_PDF_PAGES: ${MAX_PDF_PAGES:-1500}
+      EMBEDDING_PROVIDER: ${EMBEDDING_PROVIDER:-disabled}
+      EMBEDDING_MODEL: ${EMBEDDING_MODEL:-bge-m3}
+      LLM_PROVIDER: ${LLM_PROVIDER:-disabled}
+      LLM_MODEL: ${LLM_MODEL:-qwen2.5:3b}
+      LLM_BASE_URL: ${LLM_BASE_URL:-http://host.docker.internal:8080/v1}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      ALLOW_REMOTE_LLM: ${ALLOW_REMOTE_LLM:-false}
+      OLLAMA_URL: ${OLLAMA_URL:-http://ollama:11434}
+      MIN_RETRIEVAL_SCORE: ${MIN_RETRIEVAL_SCORE:-0.75}
+      RETRIEVAL_WEIGHTS: ${RETRIEVAL_WEIGHTS:-{}}
+      MODEL_TIMEOUT: ${MODEL_TIMEOUT:-180}
+      MAX_TOOL_CALLS: ${MAX_TOOL_CALLS:-8}
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - document_data:/data/storage
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+    command: [uvicorn, app.main:app, --host, 0.0.0.0, --port, "8000", --no-access-log]
+  worker:
+    build: ./backend
+    environment: *backend_environment
+    volumes:
+      - document_data:/data/storage
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+    restart: unless-stopped
+    command: [python, -m, app.case_worker]
+  frontend:
+    build: ./frontend
+    restart: unless-stopped
+    environment:
+      BACKEND_URL: http://backend:8000
+      API_KEY: ${API_KEY:?Configure .env}
+    ports:
+      - "127.0.0.1:3000:3000"
+    depends_on:
+      - backend
+  ollama:
+    image: ollama/ollama:latest
+    profiles: [local-ai]
+    volumes:
+      - ollama_data:/root/.ollama
+  tests:
+    profiles: [test]
+    build:
+      context: ./backend
+      target: test
+    environment:
+      TEST_DATABASE_URL: ${DATABASE_URL:?Configure .env}
+      TEST_ADMIN_DATABASE_URL: ${MIGRATION_DATABASE_URL:?Configure .env}
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+    command: [python, -m, pytest, -q, -p, "no:cacheprovider"]
+volumes:
+  postgres_data:
+  document_data:
+  ollama_data:

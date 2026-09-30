@@ -1,0 +1,14 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+data/storage/
+*.pdf
+!backend/tests/fixtures/*.pdf
+
+frontend/node_modules/
+frontend/.next/
+*.tsbuildinfo
+
+.tmp/

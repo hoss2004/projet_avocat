@@ -1,0 +1,16 @@
+{
+  "case_id": "32aaccff-984f-416a-8202-53a611b4f669",
+  "reference": "TEST-E2E-78b8d488",
+  "status": "completed",
+  "sections": 24,
+  "coverage": {
+    "documents_total": 2,
+    "documents_readable": 2,
+    "chunks_read": 2,
+    "chunks_total": 2
+  },
+  "draft_download": true,
+  "mobile_no_overflow": true,
+  "javascript_errors": [],
+  "elapsed_seconds": 107.7
+}
